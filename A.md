@@ -4,21 +4,51 @@
 | 新容器艇（待求）   | S*   | 新手操作手（待求） | H*   |
 | 保养容器艇         | Sm   | 保养操作手         | Hm   |
 | 使用容器艇（数据） | Su   | 使用操作手         | Hu   |
-| 训练熟练工         | Ht   |                    |      |
+| 训练熟练工         | Ht   | 损毁的机器人         | D     |
 
 $$
 \begin{aligned}
-S_0&=13\\
-H_0&=50\\
-S_n&=S_{n-1}+S^*_{n-1}\\
-H_n&=H_{n-1}+H^*_{n-1}\\
-10Ht_n&\geq H^*_{n}\\
-S_n&=Sm_n+Su_n\\
-H_n&=Hm_n+Hu_n+Ht_n\\
-Hu_n&=4Su_n\\
-Hm_n&\geq Hu_{n-1}\\
-P_n&=200S^*_n+100H^*_n+10Sm_n+5Hm_n+10Ht_n+10H^*_n\\
+S_0&=13&&\cdots(1)\\
+H_0&=50&&\cdots(2)\\
+S_n&=S_{n-1}+S^*_{n-1}&&\cdots(3)\\
+H_n&=H_{n-1}+H^*_{n-1}&&\cdots(4)\\
+10Ht_n&\geq H^*_{n}&&\cdots(5)\\
+S_n&=Sm_n+Su_n&&\cdots(6)\\
+H_n&=Hm_n+Hu_n+Ht_n&&\cdots(7)\\
+Hu_n&=4Su_n&&\cdots(8)\\
+Hm_n&\geq Hu_{n-1}&&\cdots(9)\\
+P_n&=200S^*_n+100H^*_n+10Sm_n+5Hm_n+10Ht_n+10H^*_n&&\cdots(10)\\
 min&:\sum^8_{i=1}P_i
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+问题2\quad&S_n=S_{n-1}+S^*_{n-1}-D_{n-1}&&\cdots(3)\\
+&H_n=H_{n-1}+H^*_{n-1}-4D_{n-1}&&\cdots(4)\\
+&D_n=\lfloor(Su_n/5+0.5)\rfloor&&\cdots(11)模拟四舍五入\\
+&求和上界变为104\\
+问题3\quad&20Ht_n\geq H^*_{n}&&\cdots(5)\\
+&D_n=\lfloor(Su_n/10+0.5)\rfloor&&\cdots(11)\\
+问题4\quad&(10)中200S^*_n变为\begin{cases}
+	160S^*_n+300&S^*_n\in[10,+\infty)\\
+	180S^*_n+100&S^*_n\in[5,10)\\
+	200S^*_n&S^*_n\in[0,5)\\
+\end{cases}\\
+&100H^*_n变为\begin{cases}
+	80H^*_n+600&H^*_n\in[40,+\infty)\\
+	90H^*_n+200&H^*_n\in[20,40)\\
+	100H^*_n&H^*_n\in[0,20)\\
+\end{cases}\\
+问题5-1\quad&S_0=102&&\cdots(1)\\
+&H_0=792&&\cdots(2)\\
+&Su带入105-112周数据\\
+&求和上界变为8\\
+&P_0=300S^*_0+150H^*_0&&\cdots(12)\\
+&n=0时可以以300、150的价格购买容器艇、操作手，\\
+&相当于105周时购买能够直接使用的容器艇、熟练操作手\\
+问题5-2\quad&Su加上105-112周数据\\
+&求和上界变为112\\
 \end{aligned}
 $$
 
