@@ -1,0 +1,69 @@
+<mxfile host="65bd71144e">
+    <diagram id="1McLIhTPEfyEiiBN2ZUI" name="第 1 页">
+        <mxGraphModel dx="1138" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="20" value="血管机器人的特性" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="70" width="330" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin: 0cm ; text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;1&lt;/span&gt;个容器艇需配套&lt;span lang=&quot;EN-US&quot;&gt;4&lt;/span&gt;个操作手&lt;/font&gt;&lt;font face=&quot;times new roman, serif&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 12pt ; font-size: 12pt&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="20">
+                    <mxGeometry x="20" y="40" width="290" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;新购买的操作手需要训练&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: medium&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="20">
+                    <mxGeometry x="20" y="100" width="290" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;font style=&quot;font-size: 14px&quot;&gt;新购买的容器艇和操作手在每周开始的时候到货并开始调试或训练&lt;/font&gt;&lt;span style=&quot;font-size: medium&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="20">
+                    <mxGeometry x="20" y="280" width="290" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;新购买的容器艇需要检查调试&lt;span lang=&quot;EN-US&quot;&gt;1&lt;/span&gt;周才能开始工作，可以连续工作，未工作时需一直保养&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: medium&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="20">
+                    <mxGeometry x="20" y="220" width="290" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;操作手只能在血管中连续工作&lt;span lang=&quot;EN-US&quot;&gt;1&lt;/span&gt;周，工作后需保养&lt;span lang=&quot;EN-US&quot;&gt;1&lt;/span&gt;周才能继续工作，未工作时需一直保养&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: medium&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="20">
+                    <mxGeometry x="20" y="160" width="290" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="问题5:&lt;br&gt;预测第105-112周数据" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="940" y="200" width="148" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="方案一：单独考虑第105-112周最优方案" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="140" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="方案一：统筹第1-112周最优方案" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="280" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="问题1:&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;理想情况" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="200" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&lt;span&gt;问题2:&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;span&gt;考虑损耗&lt;/span&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="200" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&lt;span&gt;问题4:&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;span&gt;考虑&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;span&gt;优惠政策&lt;/span&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="810" y="200" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="&lt;span&gt;问题3:&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;span&gt;调整&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;span&gt;损耗&lt;/span&gt;&lt;br style=&quot;padding: 0px ; margin: 0px&quot;&gt;&lt;span&gt;比例等数据&lt;/span&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="200" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="" style="curved=1;endArrow=classic;html=1;rounded=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeColor=default;shape=connector;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="41" target="43">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1020" y="300" as="sourcePoint"/>
+                        <mxPoint x="1070" y="250" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1110" y="240"/>
+                            <mxPoint x="1130" y="170"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="" style="curved=1;endArrow=classic;html=1;rounded=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=14;fontColor=default;strokeColor=default;shape=connector;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="41" target="44">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1020" y="300" as="sourcePoint"/>
+                        <mxPoint x="1080" y="320" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1120" y="250"/>
+                            <mxPoint x="1140" y="310"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
